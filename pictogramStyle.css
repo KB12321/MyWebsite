@@ -1,0 +1,81 @@
+body{
+    background-image:linear-gradient(yellow, orange, blue, green);
+}
+h1{
+    color: red;
+    font-family:Bradley Hand ITC;
+    font-size: 450%;
+    text-align: center;
+}
+h2{
+    color: red;
+    font-family:Bradley Hand ITC;
+    font-size: 200%;
+    text-align: center;
+}
+.Pictures{
+    width: 22%;
+    background-color: blue;
+    float: left;
+    margin: 1%;
+    height: 300px;
+    padding: 0.5%;
+    box-shadow:green 2px 3px ;
+    border-radius: 5% 20%;
+}
+.Pictures img{
+    width: 98%;
+    height: 200px;
+    margin: auto;
+    border-radius: 5% 20%;
+}
+.Pictures p{
+    color: white;
+    text-align: center;
+    text-shadow: red 2px 3px;
+}
+.Audio{
+    width: 47%;
+    float: left;
+    border: red 2px dotted;
+    margin: 1%;
+}
+.Video video,.YT iframe{
+    width: 100%;
+    margin: auto;
+}
+.Video,.YT{
+    width: 50%;
+    margin: auto;
+}
+footer{
+    width: 100%;
+    display: block;
+    height: 50px;
+    border-radius: 10%;
+    padding: 1%;
+}
+summary{
+    cursor: pointer;
+}
+details{
+    background-color: orange;
+    width: max-content;
+    margin: auto;
+    padding: 0.5%;
+    color: white;
+}
+nav a{
+    background-color: blue;
+    margin: 20px;
+    color: white;
+    font-size: large;
+    padding: 1%;
+
+}
+nav{
+    width: 100%;
+    height: fit-content;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

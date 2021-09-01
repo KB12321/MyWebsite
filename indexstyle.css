@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(white,yellow);
+}
+h1{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border:red 3px outset;
+}
+h2{
+    background-color:aquamarine;
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    color:red;
+    border: pink 3px inset;
+}
+#mypara{
+    background-color:blue;
+    color:whitesmoke;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+p{
+    width:100%;
+    float:left;
+    margin:1%;
+    padding: 20px;
+    background-color:greenyellow ;
+    color: salmon;
+    font-size: large;
+    font-weight: bold;
+}
+#imgflag{
+    width:98%;
+    margin: auto;
+    float: center;
+}
+#imgnature{
+    width:49%;
+    height: 400px;
+}
+#imgcity{
+    width: 49%;
+    height: 400px;
+}
+nav a{
+    background-color: blue;
+    margin: 20px;
+    color: white;
+    font-size: large;
+    padding: 1%;
+
+}
+nav{
+    width: 100%;
+    height: fit-content;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+footer{
+    width: 100%;
+    display: block;
+    height: 50px;
+    border-radius: 10%;
+    padding: 1%;
+}
+summary{
+    cursor: pointer;
+}
+details{
+    background-color: orange;
+    width: max-content;
+    margin: auto;
+    padding: 0.5%;
+    color: white;
+}
